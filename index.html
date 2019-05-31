@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="index.css" />
+    <title>HowRU</title>
+  </head>
+
+  <body>
+    <div id="parent">
+      <div id="welcome">
+        <input id="enter" type="text" placeholder="enter your name" />
+        <div class="submit_container">
+          <div id="submit">submit</div>
+        </div>
+      </div>
+
+      <div id="main" style="display: none">
+        <div id="left">
+          <h1 id="question"></h1>
+          <h1>How are you today?</h1>
+
+          <ul>
+            <li>
+              <span
+                onclick="document.getElementById('pic').src='slike/odlicno.png'"
+                >GREAT</span
+              >
+            </li>
+            <li class="imageChanger sretno">HAPPY</li>
+            <li class="imageChanger zaljubljeno">IN LOVE</li>
+            <li class="imageChanger uzbudeno">EXCITED</li>
+            <li class="imageChanger OK">OK</li>
+            <li class="imageChanger umorno">TIRED</li>
+            <li class="imageChanger nervozno">NERVOUS</li>
+            <li class="imageChanger lose">NOT GOOD</li>
+            <li class="imageChanger preplaseno">SCARED</li>
+            <li class="imageChanger bolesno">SICK</li>
+            <li class="imageChanger tuzno">SAD</li>
+            <li class="imageChanger ljutito">ANGRY</li>
+          </ul>
+        </div>
+
+        <div id="right">
+          <img id="pic" src="slike/upitnik.png" />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
